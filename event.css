@@ -1,0 +1,61 @@
+.main{
+    border: 1px solid black;
+    height: 25rem;
+    width: 55rem;
+    margin-left: 18rem;
+    margin-top: 2rem;
+}
+.head{
+    text-align: center;
+    font-family: 'Festive', cursive;
+}
+.main1{
+    border: 1px solid black;
+    width: 45rem;
+    height: 16rem;
+    margin-left: 6rem;
+}
+.good{
+    height: 10rem;
+    width: 10rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.drop{
+    width: 5rem;
+    text-align: center;
+}
+.main1{
+    display: flex;
+    gap: 5rem;
+}
+.form{
+    margin-top: 2rem;
+}
+.nice{
+    margin-left: 3rem;
+    margin-right: 0.2rem;
+    margin-top: 2rem;
+    width:12rem;
+    height: 12rem;
+    background-color: lightcyan;
+    border: 1px solid black;
+}
+.bu{
+    margin-left: 4rem;
+    margin-right: 3rem;
+    width: 8rem;
+    font-family: 'Satisfy', cursive;
+}
+.bu1{width: 8rem;
+    font-family: 'Satisfy', cursive;
+}
+@media  only screen and(max-width:600px) 
+{
+    .main{
+        width: 100%;
+    }
+    
+}
